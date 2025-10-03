@@ -14,7 +14,7 @@ This project is a modular AI assistant powered by Retrieval-Augmented Generation
 
 ⚡ Modular Architecture: Each component (text, image, storage, retrieval) is built as a module for easy extension.
 
-🔐 Cost-Efficient: No external paid services (like Pinecone) — only MongoDB and local storage.
+🔐 Cost-Efficient: No external paid services (like Pinecone) — only Postgres and local storage.
 
 📂 Tech Stack
 
