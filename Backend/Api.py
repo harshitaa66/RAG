@@ -53,7 +53,7 @@ doc_db: Optional[DocumentDB] = None
 auth_db: Optional[AuthDB] = None
 
 # Authentication Setup
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto", bcrypt__truncate_error=False)
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 def initialize_chatbot():
